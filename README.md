@@ -1,8 +1,9 @@
-#NYC Citi Bike Share Program Analysis
+# NYC Citi Bike Share Program Analysis
 ## Winter 2021-22 & Summer 2022
 <div style="text-align:center">
 <img src="https://d21xlh2maitm24.cloudfront.net/nyc/Citi-Bike-provided-by-Lyft-Positive-170x57px.svg?mtime=20201023151104" width="700" height="60" />
 </div>
+<br>
 ### Project background
 
 Since 2013, the **Citi Bike Program** has implemented a robust infrastructure for collecting data on the program's utilization. Through the team's efforts, each month bike data is collected, organized, and made public on the ["Citi Bike Data"](https://ride.citibikenyc.com/system-data) webpage.
@@ -50,9 +51,9 @@ A report of findings is located in [Analysis.md](Analysis.md).
 
 <hr>
 
-##Performing analysis
+## Performing analysis
 
-###Transforming dataset with Python and Pandas
+### Transforming dataset with Python and Pandas
 
 * Use Pandas to calculate the difference between two dates (Started time and Ended time).
 Check the format of the data:
@@ -79,7 +80,7 @@ df['ended_at'] = pd.to_datetime(df['ended_at'], errors='coerce')
 
 Repeate for all 6 files.
 
-###Cleaning the Data with SQL
+### Cleaning the Data with SQL
 
 * Upload 6 CSV files into a BigQuery tables
 Create tables for 6 datasets:
@@ -108,7 +109,7 @@ Check and remove NULL data:
 
 * Save new tables and export as new CSV files
 
-###Aggregate datasets into one CSV file
+### Aggregate datasets into one CSV file
 Jupyter Notebook was used to merge multiple datasets into one file. 
 
 `df_winter_summer = pd.concat([df_202112, df_202201, df_202202, df_202206, df_202207, df_202208], ignore_index=True)`
@@ -121,30 +122,30 @@ Then the new Dataframe was exported as new CSV file for further analysis in Tabl
 
 **Glimpse of Visualizations:**
 
-####Popular routes and stations
+#### Popular routes and stations
 ![Map](images/009.png)
 
 ---
-####Map of bike stations
+#### Map of bike stations
 ![Peak Bike Stations](images/010.png)
 
 
 ---
-####Peak ridership times dashboard
+#### Peak ridership times dashboard
 ![Peak Bike Stations](images/011.png)
 
 ---
 
-####Outliers
+#### Outliers
 ![Peak Bike Stations](images/012.png)
 
 ---
 
-####Peak trips hours during the day
+#### Peak trips hours during the day
 ![Peak Bike Stations](images/013.png)
 ---
 
-####User type breakdown analysis
+#### User type breakdown analysis
 ![Peak Bike Stations](images/014.png)
 
 
