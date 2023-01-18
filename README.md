@@ -3,8 +3,8 @@
 <div style="text-align:center">
 <img src="https://d21xlh2maitm24.cloudfront.net/nyc/Citi-Bike-provided-by-Lyft-Positive-170x57px.svg?mtime=20201023151104" width="700" height="60" />
 </div>
-<br>
-### Project background
+<hr>
+## Project background
 
 Since 2013, the **Citi Bike Program** has implemented a robust infrastructure for collecting data on the program's utilization. Through the team's efforts, each month bike data is collected, organized, and made public on the ["Citi Bike Data"](https://ride.citibikenyc.com/system-data) webpage.
 
