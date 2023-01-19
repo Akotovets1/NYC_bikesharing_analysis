@@ -14,9 +14,9 @@
 
 ## Usage Trends
 
-Number of trips for members much more than for casual customers throughout the year. In the following visualizations, you can see a difference in the behavior of Casual Customers vs. Annual members.
+The number of trips for members is much more than for casual customers throughout the year. In the following visualizations, you can see a difference in the behavior of Casual Customers vs. Annual members.
 
-* In general, passenger traffic in summer is much more than in winter. The number of trips made follows a seasonal trend in which more trips are made during warm seasons in contrast with cold seasons. Most trips start and end within the traffic rush hours meaning that the bike sharing system is used as a solution for NYC traffic congestion. There are similarities and differences in the behavior of members and casual customers.
+* Generally, passenger traffic in summer is much more than in winter. The number of trips follows a seasonal trend in which more trips are made during warm seasons in contrast with cold seasons. Most trips start and end within the traffic rush hours meaning that the bike-sharing system is used as a solution for NYC traffic congestion. There are similarities and differences in the behavior of members and casual customers.
 
 ![](images/015.png)
 
@@ -24,11 +24,11 @@ Number of trips for members much more than for casual customers throughout the y
 
 ![](images/016.png)
 
-The heatmap displays the same peaks: 7am - 9am and 5pm - 7pm.:
+The heatmap displays the same peaks: 7 am - 9 am and 5 pm - 7 pm.:
 
 ![](images/025.png)
 
-* Casual customers (tourists) are taking the longest trips compared to the members (commuters). This shows that members use the bikes program more often, but for shorter periods of time. Most trips for the members take about 15 minutes in Summer and about 12 minutes in Winter, while for the casual customers most trips take about 25 minutes in Summer and from 15 to 30 minutes in Winter.
+* Casual customers (tourists) take the longest trips compared to the members (commuters). This shows that members use the bikes program more often, but for shorter periods of time. Most trips for the members take about 15 minutes in Summer and about 12 minutes in Winter, while for the casual customers, most trips take about 25 minutes in Summer and from 15 to 30 minutes in Winter.
 
 ![](images/017.png)
 
